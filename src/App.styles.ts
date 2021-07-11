@@ -3,11 +3,9 @@ import BGImage from './images/natalia-y.jpg'
 
 export const GlobalStyle = createGlobalStyle `
     html {
-        height: 100vh;
     }
 
     body {
-        height: 100vh;
         background-image: url(${BGImage});
         background-size: cover;
         margin: 0;
